@@ -1,0 +1,18 @@
+//*[@id="tagname"]//li
+//*[@id="any"]//*
+//*[@id="attr-number"]//*[@data-price >= 5]
+//*[@id="attr-contains"]//*[contains(@class, "target")]
+//*[@id="attr-exact"]//*[@class="target"]
+//*[@id="attribute"]//*[@class]
+//*[@id="children"]//*[*[3]]
+//*[@id="following-sibling"]//*[@class]/following-sibling::*[1]
+//*[@id="following-siblings"]//*[@class]/following-sibling::*
+//*[@id="has"]//*[strong]
+//*[@id="heading"]//*[substring-after(name(), h) > 0]
+//*[@id="last-child"]//*[not(following-sibling::*[1])]
+//*[@id="parent"]//*[@class]/..
+//*[@id="partial-attr"]//*[@*[starts-with(name(), "data-custom-")]]
+//*[@id="partial-tagname"]//*[starts-with(name(), "custom-")]
+//*[@id="preceding-sibling"]//*[@class]/preceding-sibling::*[1]
+//*[@id="preceding-siblings"]//*[@class]/preceding-sibling::*
+//*[@id="text-contains"]//*[contains(text(), "item")]
